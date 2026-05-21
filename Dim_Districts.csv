@@ -1,0 +1,27 @@
+DistrictID,DistrictName,Population,OfficerCount,Zone
+1,Srikakulam,2492743,21,Coastal
+2,Vizianagaram,3034489,35,Coastal
+3,Visakhapatnam,2370006,23,Coastal
+4,Alluri Sitharama Raju,1936074,53,Coastal
+5,Anakapalli,4844887,32,Coastal
+6,Kakinada,2039911,18,Coastal
+7,Dr. B.R. Ambedkar Konaseema,2938242,39,Coastal
+8,East Godavari,2566891,28,Coastal
+9,Eluru,4144769,23,Coastal
+10,West Godavari,1591743,40,Coastal
+11,Krishna,903355,16,Coastal
+12,NTR,2062752,34,Coastal
+13,Guntur,2196025,42,Coastal
+14,Bapatla,2107371,21,Coastal
+15,Palnadu,1717040,58,Coastal
+16,Prakasam,3053882,22,Coastal
+17,SPSR Nellore,4330409,49,Coastal
+18,Kurnool,2300942,28,Rayalaseema
+19,Nandyal,4075709,31,Rayalaseema
+20,Anantapuramu,884654,50,Rayalaseema
+21,Sri Sathya Sai,2754354,54,Rayalaseema
+22,YSR Kadapa,3216182,18,Rayalaseema
+23,Annamayya,4274675,16,Rayalaseema
+24,Chittoor,3452991,20,Rayalaseema
+25,Tirupati,3228388,56,Rayalaseema
+26,Parvathipuram Manyam,1328178,18,Rayalaseema
