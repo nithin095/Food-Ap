@@ -4,4 +4,4 @@ numpy
 plotly
 plotly-express
 streamlit-mic-recorder
-groqs
+groqs 
