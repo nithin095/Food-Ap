@@ -2285,11 +2285,7 @@ with tab_predict:
     fig_cat_proj.update_layout(**get_chart_layout(), height=360, title_text="Current vs Projected Risk by Category", barmode="group")
     st.plotly_chart(fig_cat_proj, use_container_width=True)
 
-    st.dataframe(cat_forecast.style.applymap(
-        lambda v: "color: #E11D48; font-weight: bold;" if isinstance(v, str) and v.startswith("+") else
-                  "color: #059669; font-weight: bold;" if isinstance(v, str) and v.startswith("-") else "",
-        subset=["Change"]
-    ), use_container_width=True)
+    st.dataframe(cat_forecast,use_container_width=True)
 
     st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
     st.markdown("""<div style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:var(--text-primary);margin-bottom:12px;">🎭 Scenario Modeling</div>""", unsafe_allow_html=True)
