@@ -861,7 +861,7 @@ def detect_anomalies(df):
 
 def query_ai_assistant(question: str, context_summary: str) -> str:
     response = groq_client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="gemma2-9b-it",
         max_tokens=400,
         messages=[
             {
