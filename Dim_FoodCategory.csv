@@ -1,0 +1,17 @@
+CategoryID,CategoryName,RiskWeight
+1,Milk,4.5
+2,Spices,4
+3,Oils,3.5
+4,Fish,4.8
+5,Meat,4.7
+6,Poultry,4.6
+7,Rice,2.5
+8,Wheat Flour,2.8
+9,Vegetables,3.2
+10,Fruits,3
+11,Sweets,4.1
+12,Bakery,3.6
+13,Beverages,3.3
+14,Packaged Snacks,2.9
+15,Water,4.2
+16,Eggs,4
