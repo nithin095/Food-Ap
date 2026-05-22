@@ -4,3 +4,8 @@ numpy
 plotly
 streamlit-mic-recorder
 groq
+matplotlib
+scikit-learn
+seaborn
+openpyxl
+python-dotenv
