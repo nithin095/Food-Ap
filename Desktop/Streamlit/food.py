@@ -1,4 +1,18 @@
 import streamlit as st
+
+
+
+
+
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+
+
+
+
 import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
@@ -40,12 +54,12 @@ GROQ_API_KEY = load_api_key_from_file(ENV_FILE) or os.getenv("GROQ_API_KEY", "")
 # PAGE CONFIG  — must be FIRST Streamlit call
 # =========================================================
 
-st.set_page_config(
-    page_title="VigilantAP | Food Safety Intelligence",
-    page_icon="🛡️",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# st.set_page_config(
+#     page_title="VigilantAP | Food Safety Intelligence",
+#     page_icon="🛡️",
+#     layout="wide",
+#     initial_sidebar_state="expanded"
+# )
 
 # =========================================================
 # SESSION STATE
